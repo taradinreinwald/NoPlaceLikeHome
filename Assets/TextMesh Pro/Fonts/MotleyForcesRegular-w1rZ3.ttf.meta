@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 85ff0e9b3e510ce429e80eea0864a5fb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Motley Forces
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3000b82d870e0204c8d147d9be534aca, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
