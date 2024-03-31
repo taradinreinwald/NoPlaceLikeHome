@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,427 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1256
+        width: 452
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9329759899064584fa7b8154589d00c9
+      internalID: -373359358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1201
+        width: 454
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 41, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3762a05fe00ec35499f409e715235d35
+      internalID: 1962541245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1260
+        width: 454
+        height: 434
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449c7df434987394781599b4eaa65dda
+      internalID: 2089104370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1640
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a87970b7111d9f4db47ad9781777aba
+      internalID: -291180005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_9
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1640
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e19dff9936e2f547909edec547518fd
+      internalID: -1479745242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1621
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeda379fa137b3542b86f2f5d50482d7
+      internalID: 1473833483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 796
+        width: 452
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242b413e90d174a4ca9150a31ae2a804
+      internalID: -1316071554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_43
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 813
+        width: 450
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe638db98276b44be71fd03467d265
+      internalID: 523825072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_44
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 790
+        width: 450
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4857cb60fe08482488a764de034bd6a0
+      internalID: -508911077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_45
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 821
+        width: 452
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3508766c19ff9b243b6bbfa0b8205809
+      internalID: -1134400078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_46
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 342
+        width: 450
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efece471dd044e4c9f970e497205319
+      internalID: 1955287583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_47
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 348
+        width: 450
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981faf245b2ec3643be263480f48d7f9
+      internalID: -1234826073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_48
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 20
+        width: 460
+        height: 755
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929aa5980136d8143b78802e73a36608
+      internalID: -1912649859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_49
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 306
+        width: 452
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb6756a8f6aced4780d31f5f24e1b79
+      internalID: -2113728949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3
+        width: 460
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd9db1ce43f5ea4aa708d2f9518af23
+      internalID: -448296323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_52
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 266
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0101ff358b1e8884b94ab99a1a1f7cae
+      internalID: -1067245418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3
+        width: 477
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428ad456d370b474f8b4e7a8ac5d2438
+      internalID: 451117528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_54
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 283
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be26ccbc99683946ba3dcc8b75c31fc
+      internalID: -869839257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_71
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 198
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7db534a622913458efe3290c6a640d
+      internalID: 656910264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_Tara_Assets_Sprit_Ver1_72
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 215
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e67bb7494508b4a9d3ce2a871b0ea0
+      internalID: -1236355004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +534,96 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileset_Tara_Assets_Sprit_Ver1_0: -373359358
+      tileset_Tara_Assets_Sprit_Ver1_1: -1728511001
+      tileset_Tara_Assets_Sprit_Ver1_10: -1552673506
+      tileset_Tara_Assets_Sprit_Ver1_11: -1949031554
+      tileset_Tara_Assets_Sprit_Ver1_12: -1800385599
+      tileset_Tara_Assets_Sprit_Ver1_13: 1473833483
+      tileset_Tara_Assets_Sprit_Ver1_14: -788099812
+      tileset_Tara_Assets_Sprit_Ver1_15: 489306150
+      tileset_Tara_Assets_Sprit_Ver1_16: 453415657
+      tileset_Tara_Assets_Sprit_Ver1_17: 700179342
+      tileset_Tara_Assets_Sprit_Ver1_18: 713238706
+      tileset_Tara_Assets_Sprit_Ver1_19: -1248080720
+      tileset_Tara_Assets_Sprit_Ver1_2: 1962541245
+      tileset_Tara_Assets_Sprit_Ver1_20: 181222488
+      tileset_Tara_Assets_Sprit_Ver1_21: 238298659
+      tileset_Tara_Assets_Sprit_Ver1_22: 138150526
+      tileset_Tara_Assets_Sprit_Ver1_23: -2006506854
+      tileset_Tara_Assets_Sprit_Ver1_24: -917577461
+      tileset_Tara_Assets_Sprit_Ver1_25: 1425722867
+      tileset_Tara_Assets_Sprit_Ver1_26: 455060631
+      tileset_Tara_Assets_Sprit_Ver1_27: 1162489365
+      tileset_Tara_Assets_Sprit_Ver1_28: -545392105
+      tileset_Tara_Assets_Sprit_Ver1_29: 1153608149
+      tileset_Tara_Assets_Sprit_Ver1_3: 211168228
+      tileset_Tara_Assets_Sprit_Ver1_30: -1210455529
+      tileset_Tara_Assets_Sprit_Ver1_31: -47490559
+      tileset_Tara_Assets_Sprit_Ver1_32: 1452570203
+      tileset_Tara_Assets_Sprit_Ver1_33: -703846774
+      tileset_Tara_Assets_Sprit_Ver1_34: -184864652
+      tileset_Tara_Assets_Sprit_Ver1_35: 827748700
+      tileset_Tara_Assets_Sprit_Ver1_36: -743797108
+      tileset_Tara_Assets_Sprit_Ver1_37: 974832076
+      tileset_Tara_Assets_Sprit_Ver1_38: -892648415
+      tileset_Tara_Assets_Sprit_Ver1_39: 1749700062
+      tileset_Tara_Assets_Sprit_Ver1_4: 1628639904
+      tileset_Tara_Assets_Sprit_Ver1_40: 326401254
+      tileset_Tara_Assets_Sprit_Ver1_41: -621535057
+      tileset_Tara_Assets_Sprit_Ver1_42: -1316071554
+      tileset_Tara_Assets_Sprit_Ver1_43: 523825072
+      tileset_Tara_Assets_Sprit_Ver1_44: -508911077
+      tileset_Tara_Assets_Sprit_Ver1_45: -1134400078
+      tileset_Tara_Assets_Sprit_Ver1_46: 1955287583
+      tileset_Tara_Assets_Sprit_Ver1_47: -1234826073
+      tileset_Tara_Assets_Sprit_Ver1_48: -1912649859
+      tileset_Tara_Assets_Sprit_Ver1_49: -2113728949
+      tileset_Tara_Assets_Sprit_Ver1_5: -702016714
+      tileset_Tara_Assets_Sprit_Ver1_50: -249146888
+      tileset_Tara_Assets_Sprit_Ver1_51: -448296323
+      tileset_Tara_Assets_Sprit_Ver1_52: -1067245418
+      tileset_Tara_Assets_Sprit_Ver1_53: 451117528
+      tileset_Tara_Assets_Sprit_Ver1_54: -869839257
+      tileset_Tara_Assets_Sprit_Ver1_55: -701396101
+      tileset_Tara_Assets_Sprit_Ver1_56: 668616928
+      tileset_Tara_Assets_Sprit_Ver1_57: 1706712047
+      tileset_Tara_Assets_Sprit_Ver1_58: 470133578
+      tileset_Tara_Assets_Sprit_Ver1_59: -1381241661
+      tileset_Tara_Assets_Sprit_Ver1_6: 1506979696
+      tileset_Tara_Assets_Sprit_Ver1_60: 868620738
+      tileset_Tara_Assets_Sprit_Ver1_61: -1364179176
+      tileset_Tara_Assets_Sprit_Ver1_62: -121929713
+      tileset_Tara_Assets_Sprit_Ver1_63: -1634081068
+      tileset_Tara_Assets_Sprit_Ver1_64: -438769919
+      tileset_Tara_Assets_Sprit_Ver1_65: -339583115
+      tileset_Tara_Assets_Sprit_Ver1_66: 1677844440
+      tileset_Tara_Assets_Sprit_Ver1_67: -501725453
+      tileset_Tara_Assets_Sprit_Ver1_68: 394942122
+      tileset_Tara_Assets_Sprit_Ver1_69: 1059023464
+      tileset_Tara_Assets_Sprit_Ver1_7: 2089104370
+      tileset_Tara_Assets_Sprit_Ver1_70: 944402400
+      tileset_Tara_Assets_Sprit_Ver1_71: 656910264
+      tileset_Tara_Assets_Sprit_Ver1_72: -1236355004
+      tileset_Tara_Assets_Sprit_Ver1_73: -37917339
+      tileset_Tara_Assets_Sprit_Ver1_74: -119303620
+      tileset_Tara_Assets_Sprit_Ver1_75: 996697197
+      tileset_Tara_Assets_Sprit_Ver1_76: -1578992325
+      tileset_Tara_Assets_Sprit_Ver1_77: -628420675
+      tileset_Tara_Assets_Sprit_Ver1_78: -610382126
+      tileset_Tara_Assets_Sprit_Ver1_79: -1108371535
+      tileset_Tara_Assets_Sprit_Ver1_8: -291180005
+      tileset_Tara_Assets_Sprit_Ver1_80: 339221690
+      tileset_Tara_Assets_Sprit_Ver1_81: 734002332
+      tileset_Tara_Assets_Sprit_Ver1_82: 167188704
+      tileset_Tara_Assets_Sprit_Ver1_83: 547560021
+      tileset_Tara_Assets_Sprit_Ver1_84: 409807082
+      tileset_Tara_Assets_Sprit_Ver1_85: -84034147
+      tileset_Tara_Assets_Sprit_Ver1_86: -1532140178
+      tileset_Tara_Assets_Sprit_Ver1_87: 1609785679
+      tileset_Tara_Assets_Sprit_Ver1_88: -1191896114
+      tileset_Tara_Assets_Sprit_Ver1_9: -1479745242
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

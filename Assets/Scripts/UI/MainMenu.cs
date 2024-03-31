@@ -38,6 +38,7 @@ public class MainMenu : MonoBehaviour
         {
             {
                 _controls.SetActive(false); // Hides the controls screen
+                _controlsOpen = false; // Update controlsOpen flag
             }
         }
 
@@ -63,5 +64,6 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quitting game...");
         Application.Quit(); // Quits the game
     }
+ 
 }
 

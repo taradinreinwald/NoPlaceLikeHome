@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - _controls: {instanceID: 0}
+  - _controls: {fileID: 9104865152675814320, guid: f743479080bcdec44834152b03650cea, type: 3}
   - _startButton: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
