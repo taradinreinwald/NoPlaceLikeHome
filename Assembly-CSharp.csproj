@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\Collectables\GameManager.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\ScriptableStats.cs" />
+    <Compile Include="Assets\Scripts\Audio\MainMenuAudio.cs" />
+    <Compile Include="Assets\Scripts\Audio\InGameAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a1567aa71845f64eb1f10d51fab7489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controls: {fileID: 9104865152675814320, guid: f743479080bcdec44834152b03650cea, type: 3}
+  _controls: {fileID: 4247038268545744780, guid: 6854f480e5432d5499d0533c9aeddf11, type: 3}
   _startButton: {fileID: 2042264780}
 --- !u!1 &1827051659
 GameObject:
