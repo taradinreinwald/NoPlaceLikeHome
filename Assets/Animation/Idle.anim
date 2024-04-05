@@ -53,7 +53,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -109.623}
+        value: {x: 0, y: 0, z: -108.344}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -401,7 +401,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -109.623
+        value: -108.344
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -663,7 +663,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: RightEarBone
+    path: LeftEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -673,7 +673,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: RightEarBone
+    path: LeftEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -683,7 +683,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: RightEarBone
+    path: LeftEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -693,7 +693,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: LeftEarBone
+    path: RightEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -703,7 +703,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: LeftEarBone
+    path: RightEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -713,7 +713,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: LeftEarBone
+    path: RightEarBone
     classID: 4
     script: {fileID: 0}
   - curve:
