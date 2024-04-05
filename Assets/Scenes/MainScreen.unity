@@ -247,6 +247,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnControlsPress
       objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661810, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661810, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661813, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661813, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_margin.w
+      value: -83.70725
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661813, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_margin.x
+      value: -520.01324
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305868661813, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_margin.z
+      value: 17.075417
+      objectReference: {fileID: 0}
     - target: {fileID: 1662074783148609354, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -499,6 +523,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7812290486897699035, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7152322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812290486897699035, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7152322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812290486897699035, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7152322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812290486897699035, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 251
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812290486897699035, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -134
+      objectReference: {fileID: 0}
     - target: {fileID: 8559466198409782313, guid: 0cb11c91eacd0e443a8378dd5cb36b5d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -542,7 +586,7 @@ PrefabInstance:
       objectReference: {fileID: 1190053652}
     - target: {fileID: 4247038268261833432, guid: 6854f480e5432d5499d0533c9aeddf11, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnStartPress
+      value: CloseApplication
       objectReference: {fileID: 0}
     - target: {fileID: 4247038268261833432, guid: 6854f480e5432d5499d0533c9aeddf11, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

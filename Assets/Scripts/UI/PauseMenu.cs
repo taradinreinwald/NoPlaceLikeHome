@@ -76,9 +76,13 @@ public class PauseMenu : MonoBehaviour
             EventSystem.current.SetSelectedGameObject(EventSystem.current.firstSelectedGameObject); // If anyone accidentally clicks the screen while the game is paused, the selection will automatically return to the Resume button.
         }
     }
+    public void CloseApplication()
+    {
+        Application.Quit();
+    }
 
-    #region Pause/Resume functions
-    public void GamePause()
+#region Pause/Resume functions
+public void GamePause()
     {
         _gamePaused = true; // Sets the pause flag to true
 
