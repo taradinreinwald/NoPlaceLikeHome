@@ -13,7 +13,6 @@ namespace TarodevController
     [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class PlayerController : MonoBehaviour, IPlayerController
     {
-
         [SerializeField] private ScriptableStats _stats;
         private Rigidbody2D _rb;
         private CapsuleCollider2D _col;
@@ -37,14 +36,12 @@ namespace TarodevController
             _col = GetComponent<CapsuleCollider2D>();
 
             _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
-           
         }
-        
+
         private void Update()
         {
             _time += Time.deltaTime;
             GatherInput();
-            
         }
 
         private void GatherInput()
@@ -76,12 +73,12 @@ namespace TarodevController
             HandleJump();
             HandleDirection();
             HandleGravity();
-
+            
             ApplyMovement();
         }
 
         #region Collisions
-
+        
         private float _frameLeftGrounded = float.MinValue;
         private bool _grounded;
 
@@ -126,7 +123,6 @@ namespace TarodevController
         private bool _endedJumpEarly;
         private bool _coyoteUsable;
         private float _timeJumpWasPressed;
-        internal static object instance;
 
         private bool HasBufferedJump => _bufferedJumpUsable && _time < _timeJumpWasPressed + _stats.JumpBuffer;
         private bool CanUseCoyote => _coyoteUsable && !_grounded && _time < _frameLeftGrounded + _stats.CoyoteTime;
