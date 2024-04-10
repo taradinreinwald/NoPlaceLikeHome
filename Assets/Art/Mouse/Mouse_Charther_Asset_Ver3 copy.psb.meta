@@ -122,8 +122,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2183
-      y: 4
+      x: 4
+      y: 3330
       width: 1173
       height: 377
     spriteID: b182fac451c063640a8676fabff9a5f8
@@ -135,7 +135,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2183, y: 4}
+    uvTransform: {x: 4, y: 3330}
     spritePosition: {x: 0, y: 373}
   - name: Layer 16
     originalName: 
@@ -144,8 +144,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2183
-      y: 1382
+      x: 2101
+      y: 2950
       width: 325
       height: 608
     spriteID: efdf3c75c1a3a3e4287285e5f464c86e
@@ -157,7 +157,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2183, y: 1382}
+    uvTransform: {x: 2101, y: 2950}
     spritePosition: {x: 2662, y: 74}
   - name: Layer 12
     originalName: 
@@ -166,8 +166,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2183
-      y: 836
+      x: 1185
+      y: 3330
       width: 605
       height: 538
     spriteID: eebff8dabd7b5364fb3d46371101e1a0
@@ -179,39 +179,17 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2183, y: 836}
+    uvTransform: {x: 1185, y: 3330}
     spritePosition: {x: 2030, y: 0}
-  - name: Layer 13
+  - name: Wiskers
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2183
-      y: 389
-      width: 875
-      height: 439
-    spriteID: a24919bc11260a240ab7dc01175906e2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 2183, y: 389}
-    spritePosition: {x: 2088, y: 1173}
-  - name: <Group>
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2113
+      x: 0
+      y: 2196
       width: 2089
       height: 1128
     spriteID: d57b528d3193fdc428156310e2eb015c
@@ -359,7 +337,7 @@ ScriptedImporter:
     parentIndex: 2
     spriteID: b182fac451c063640a8676fabff9a5f8
     layerID: 60
-    mosaicPosition: {x: 2183, y: 4}
+    mosaicPosition: {x: 4, y: 3330}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -379,7 +357,7 @@ ScriptedImporter:
     parentIndex: 4
     spriteID: efdf3c75c1a3a3e4287285e5f464c86e
     layerID: 76
-    mosaicPosition: {x: 2183, y: 1382}
+    mosaicPosition: {x: 2101, y: 2950}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -399,7 +377,7 @@ ScriptedImporter:
     parentIndex: 6
     spriteID: eebff8dabd7b5364fb3d46371101e1a0
     layerID: 45
-    mosaicPosition: {x: 2183, y: 836}
+    mosaicPosition: {x: 1185, y: 3330}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -413,18 +391,8 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
-  - name: Layer 13
-    spriteName: Layer 13
-    isGroup: 0
-    parentIndex: 8
-    spriteID: a24919bc11260a240ab7dc01175906e2
-    layerID: 36
-    mosaicPosition: {x: 2183, y: 389}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: <Group>
-    spriteName: <Group>
+  - name: Wiskers
+    spriteName: Wiskers
     isGroup: 0
     parentIndex: 8
     spriteID: d57b528d3193fdc428156310e2eb015c
@@ -446,7 +414,7 @@ ScriptedImporter:
   - name: bow
     spriteName: bow
     isGroup: 0
-    parentIndex: 11
+    parentIndex: 10
     spriteID: 2caddcb1759a4f0438017b84f4514c04
     layerID: 20
     mosaicPosition: {x: 3540, y: 2113}
@@ -466,7 +434,7 @@ ScriptedImporter:
   - name: body
     spriteName: body
     isGroup: 0
-    parentIndex: 13
+    parentIndex: 12
     spriteID: a39004b32facee1439c6e0f2346c215d
     layerID: 10
     mosaicPosition: {x: 4, y: 4}
@@ -486,7 +454,7 @@ ScriptedImporter:
   - name: ear
     spriteName: ear
     isGroup: 0
-    parentIndex: 15
+    parentIndex: 14
     spriteID: f6bbf790e8db65746891b14807f37e5a
     layerID: 2
     mosaicPosition: {x: 2888, y: 2113}
