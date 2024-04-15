@@ -17,8 +17,8 @@ public class PauseMenu : MonoBehaviour
     [SerializeField]
     private GameObject _player;
 
-    [SerializeField]
-    private GameObject _controls;
+    //[SerializeField]
+    //private GameObject _controls;
 
     [SerializeField]
     private GameObject _resumeButton;
@@ -31,13 +31,13 @@ public class PauseMenu : MonoBehaviour
 
         _player = GameObject.Find("Player"); // Finds the player
 
-        _controls = GameObject.Find("Controls"); // Finds the Controls screen
+        //_controls = GameObject.Find("Controls"); // Finds the Controls screen
     }
     void Start()
     {
         _pauseMenuScreen.SetActive(false); // Hides the pause menu
 
-        _controls.SetActive(false); // Hides the controls screen
+        //_controls.SetActive(false); // Hides the controls screen
 
         Cursor.lockState = CursorLockMode.Locked; // Locks the cursor
 
@@ -64,12 +64,12 @@ public class PauseMenu : MonoBehaviour
                 GamePause(); // Pause the game
             }
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == true) // After pressing escape, if the controls screen is open...
-        {
-            {
-                _controls.SetActive(false); // Hides the controls screen
-            }
-        }
+        //else if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == true) // After pressing escape, if the controls screen is open...
+        //{
+        //    {
+        //        _controls.SetActive(false); // Hides the controls screen
+        //    }
+        //}
 
         if (Input.GetMouseButtonDown(0) && _gamePaused == true)
         {
@@ -120,11 +120,11 @@ public void GamePause()
         GameResume(); // Resumes the game when the Resume button is pressed.
     }
 
-    public void OnControlsPress()
-    {
-        _controls.SetActive(true); // Shows the controls screen
-        _controlsOpen = true; // Flags the controls screen as being open
-    }
+    //public void OnControlsPress()
+    //{
+    //    _controls.SetActive(true); // Shows the controls screen
+    //    _controlsOpen = true; // Flags the controls screen as being open
+    //}
 
     public void OnMainMenuPress()
     {
