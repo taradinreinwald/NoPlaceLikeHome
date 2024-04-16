@@ -8049,6 +8049,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RetryLevel
       objectReference: {fileID: 0}
+    - target: {fileID: 987240305296917433, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305296917433, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305296917433, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305296917433, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 987240305722259107, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8056,6 +8072,22 @@ PrefabInstance:
     - target: {fileID: 987240305722259107, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: HomeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305722259108, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305722259108, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305722259108, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987240305722259108, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fdaa7624c526e7408605068e94e7daa, type: 3}
@@ -8389,6 +8421,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1650100107}
     m_Modifications:
+    - target: {fileID: 165899777836085715, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1967177363}
+    - target: {fileID: 165899777836085715, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMute
+      objectReference: {fileID: 0}
+    - target: {fileID: 165899777836085715, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InGameAudio, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 165899777836085715, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1956564352429818476, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -8497,6 +8545,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6261553353593345965, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 56d8fcd55755673429ce390d6eaba679, type: 3}
     - target: {fileID: 6383036235864750341, guid: 1a7b8ea305579bb4697a73d0fddad712, type: 3}
       propertyPath: m_Name
       value: pausemenu
