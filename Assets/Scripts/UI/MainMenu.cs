@@ -16,11 +16,16 @@ public class MainMenu : MonoBehaviour
     [SerializeField]
     private GameObject _startButton;
 
+    [SerializeField]
+    private GameObject _closeButton;
+
     private void Awake()
     {
         _controls = GameObject.Find("Controls"); // Finds the Controls Button
 
         _startButton = GameObject.Find("ResumeButton"); // Finds the Start Button
+
+        _closeButton = GameObject.Find("CloseButton"); // Finds the Start Button
     }
     void Start()
     {
@@ -57,6 +62,11 @@ public class MainMenu : MonoBehaviour
     {
         _controls.SetActive(true); // Shows the controls screen
         _controlsOpen = true; // Flags the controls screen as being open
+    }
+    public void ClosedControls()
+    {
+        _controls.SetActive(false); 
+       
     }
 
     public void OnQuitPress()
