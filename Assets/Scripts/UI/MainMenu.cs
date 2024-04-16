@@ -41,6 +41,7 @@ public class MainMenu : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == true) // After pressing escape, if the controls screen is open...
         {
+
             {
                 _controls.SetActive(false); // Hides the controls screen
                 _controlsOpen = false; // Update controlsOpen flag
