@@ -51,12 +51,12 @@ TagManager:
   - name: UI
     uniqueID: 1457276137
     locked: 0
-  - name: Collectables
-    uniqueID: 3411333619
+  - name: Other
+    uniqueID: 314594319
     locked: 0
   - name: Player
     uniqueID: 4240360829
     locked: 0
-  - name: Other
-    uniqueID: 314594319
+  - name: Collectables
+    uniqueID: 3411333619
     locked: 0
