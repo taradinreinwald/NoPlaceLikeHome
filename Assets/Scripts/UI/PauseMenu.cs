@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 
+
 public class PauseMenu : MonoBehaviour
 {
-
 
     [SerializeField]
     private GameObject _pauseMenuScreen;
@@ -17,13 +17,11 @@ public class PauseMenu : MonoBehaviour
     [SerializeField]
     private GameObject _player;
 
-    //[SerializeField]
-    //private GameObject _controls;
 
     [SerializeField]
     private GameObject _resumeButton;
 
-    private bool _controlsOpen = false;
+   
 
     private void Awake()
     {
@@ -31,14 +29,17 @@ public class PauseMenu : MonoBehaviour
 
         _player = GameObject.Find("Player"); // Finds the player
 
-        //_controls = GameObject.Find("Controls"); // Finds the Controls screen
+        
     }
     void Start()
     {
-        _pauseMenuScreen.SetActive(false); // Hides the pause menu
+        if (_pauseMenuScreen != null)
+        {
 
-        //_controls.SetActive(false); // Hides the controls screen
+            _pauseMenuScreen.SetActive(false); // Hides the pause menu
+        }
 
+      
         Cursor.lockState = CursorLockMode.Locked; // Locks the cursor
 
     }
@@ -57,19 +58,14 @@ public class PauseMenu : MonoBehaviour
                 _player.SetActive(true); // Activate the Player object if it exists in the scene
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == false) // After pressing escape, if the controls screen is closed...
+        if (Input.GetKeyDown(KeyCode.Escape)) 
         {
             if (!_gamePaused) // If the game is not already paused...
             {
                 GamePause(); // Pause the game
             }
         }
-        //else if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == true) // After pressing escape, if the controls screen is open...
-        //{
-        //    {
-        //        _controls.SetActive(false); // Hides the controls screen
-        //    }
-        //}
+       
 
         if (Input.GetMouseButtonDown(0) && _gamePaused == true)
         {
@@ -104,7 +100,11 @@ public void GamePause()
 
     private void OpenMenu()
     {
-        _pauseMenuScreen.SetActive(true); // Shows the pause menu
+        if( _pauseMenuScreen != null)
+        {
+            _pauseMenuScreen.SetActive(true); // Shows the pause menu
+        }
+        
     }
 
     private void CloseMenu()
@@ -120,11 +120,7 @@ public void GamePause()
         GameResume(); // Resumes the game when the Resume button is pressed.
     }
 
-    //public void OnControlsPress()
-    //{
-    //    _controls.SetActive(true); // Shows the controls screen
-    //    _controlsOpen = true; // Flags the controls screen as being open
-    //}
+  
 
     public void OnMainMenuPress()
     {
