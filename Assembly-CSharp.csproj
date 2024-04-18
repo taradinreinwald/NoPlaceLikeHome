@@ -66,13 +66,13 @@
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Audio\MainMenuAudio.cs" />
     <Compile Include="Assets\Scripts\Background\Camera\CameraFollows.cs" />
+    <Compile Include="Assets\Scripts\UI\Pause.cs" />
     <Compile Include="Assets\Scripts\Collectables\GameManager.cs" />
     <Compile Include="Assets\Scripts\Background\Parallax\Parallaxing.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Background\Dealthzone.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\ScriptableStats.cs" />
     <Compile Include="Assets\Scripts\Background\Camera\Camera2DFollow.cs" />
-    <Compile Include="Assets\Scripts\UI\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
