@@ -663,8 +663,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 298443035}
-  - component: {fileID: 298443037}
   - component: {fileID: 298443036}
+  - component: {fileID: 298443037}
   m_Layer: 0
   m_Name: Speaker
   m_TagString: Untagged

@@ -23,9 +23,11 @@ public class MainMenuAudio : MonoBehaviour
         {
             soundimage.sprite = unmuted;
         }
-        else
+        else if (audioSource.mute == false)
         {
             soundimage.sprite = muted;
-        }
+        }  
+        audioSource.mute = !audioSource.mute;
     }
-}
+    
+} 
