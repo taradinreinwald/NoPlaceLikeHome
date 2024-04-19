@@ -48,7 +48,7 @@ namespace TarodevController
         {
             _frameInput = new FrameInput
             {
-                JumpDown = Input.GetButtonDown("Jump") 
+                JumpDown = Input.GetButtonDown("Jump"), 
                 JumpHeld = Input.GetButton("Jump"), 
                 Move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))
             };
