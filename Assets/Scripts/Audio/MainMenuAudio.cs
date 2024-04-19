@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainMenuAudio : MonoBehaviour
 {
+    public Image soundimage;
+    public Sprite muted;
+    public Sprite unmuted;
+
 
     private AudioSource audioSource;
 
@@ -12,9 +17,15 @@ public class MainMenuAudio : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         audioSource.Play(); // Play the audio on start
     }
-
     public void ToggleMute()
     {
-        audioSource.mute = !audioSource.mute; // Toggle mute state
+        if (audioSource.mute == true)
+        {
+            soundimage.sprite = unmuted;
+        }
+        else
+        {
+            soundimage.sprite = muted;
+        }
     }
 }

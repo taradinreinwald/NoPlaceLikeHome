@@ -30,8 +30,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
   
-        _controls.SetActive(true); // Hides the controls screen
-
+      
        
 
     }
@@ -39,46 +38,18 @@ public class MainMenu : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Escape) && _controlsOpen == true) // After pressing escape, if the controls screen is open...
-        {
-
-            {
-                _controls.SetActive(false); // Hides the controls screen
-                _controlsOpen = false; // Update controlsOpen flag
-            }
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            EventSystem.current.SetSelectedGameObject(EventSystem.current.firstSelectedGameObject); // If anyone accidentally clicks the screen, the selection will automatically return to the Start button.
-        }
+       
     }
 
     public void OnStartPress()
     {
         SceneManager.LoadScene("Level_Canada"); // Loads level 1
-    }
-
-    public void OnControlsPress()
-    {
-        _controls.SetActive(true); // Shows the controls screen
-        _controlsOpen = true; // Flags the controls screen as being open
-    }
-    public void ClosedControls()
-    {
-        _controls.SetActive(false); 
-       
-    }
-
+    } 
     public void OnQuitPress()
     {
         Debug.Log("Quitting game...");
         Application.Quit(); // Quits the game
     }
-    public void CloseApplication()
-    {
-        Application.Quit();
-    }
- 
+   
 }
 
