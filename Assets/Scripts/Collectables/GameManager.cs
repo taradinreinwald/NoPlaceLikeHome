@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Score: " + score.ToString();
+            scoreText.text = "Food: " + score.ToString();
         }
     }
 }

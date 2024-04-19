@@ -8,7 +8,7 @@ public class Collectible_2 : MonoBehaviour
 {
     public int scoreValue = 10; // Score value of each collectible
     private PlayerController playerController; // Reference to the PlayerController
-
+    bool isPlayerNearby;
     private void Start()
     {
         playerController = FindObjectOfType<PlayerController>(); // Find the PlayerController in the scene
@@ -20,33 +20,21 @@ public class Collectible_2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             // Check if the player is close enough to the collectible
-            if (IsPlayerNearby())
+            if (isPlayerNearby)
             {
                 Collect();
             }
         }
     }
-
-    private bool IsPlayerNearby()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (playerController != null)
+        // Check if the colliding GameObject is the player
+        if (other.gameObject.GetComponent<PlayerController>())
         {
-            // Get the position of the player
-            Vector2 playerPosition = playerController.transform.position;
 
-            // Get the position of the collectible
-            Vector2 collectiblePosition = transform.position;
+            isPlayerNearby = true;
 
-            // Calculate the distance between the player and the collectible
-            float distance = Vector2.Distance(collectiblePosition, playerPosition);
 
-            // Check if the distance is less than the specified threshold
-            return distance < 1.5f; // Adjust this threshold as needed
-        }
-        else
-        {
-            Debug.LogError("PlayerController not found!");
-            return false;
         }
     }
 

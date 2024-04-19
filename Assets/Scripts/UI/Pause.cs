@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,8 +11,9 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0;
     }
-    public void Home()
+    public void Closed()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainScreen");
     }
     public void resume()
@@ -22,8 +21,24 @@ public class Pause : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
-    public void Reset()
+    public void OnPause()
     {
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OnPause();
+
+
+        }
+
+    }
+    public void Retry()
+    {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
