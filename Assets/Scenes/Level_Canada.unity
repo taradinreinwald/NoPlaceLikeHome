@@ -3422,6 +3422,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1088703574708139143, guid: 74b09e9b7205db64fa3d9fa0fdedc027, type: 3}
+      propertyPath: m_Name
+      value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088703574708139143, guid: 74b09e9b7205db64fa3d9fa0fdedc027, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1579248042423075891, guid: 74b09e9b7205db64fa3d9fa0fdedc027, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 237
@@ -11613,7 +11621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2097136213
 Transform:
   m_ObjectHideFlags: 0
