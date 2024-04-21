@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Canada.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Level_India.unity
+    guid: 962c3ec3c39bb7a4bb7ddea9ecefe0d6
+  - enabled: 1
+    path: Assets/Scenes/Level_Italy.unity
+    guid: edf13ade3142b554b9c94e63333aa726
+  - enabled: 1
+    path: Assets/Scenes/Level_Germany.unity
+    guid: 9d151b054d99f1049ab32b57d270a511
   m_configObjects: {}
